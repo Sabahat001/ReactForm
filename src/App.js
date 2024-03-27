@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import "./App.css";
 
 function App() {
@@ -25,13 +26,13 @@ function App() {
         <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wppjcCkilEavui6RyxtUsYFLkWNorWwGsQ&s" alt="" /></div>
       <h1 className='heading'>Log In</h1>
       <div className="social-media">
-      <div className="google">Google <i class="fa fa-google" ></i></div>
-      <div className="fb">Facebook <i className="fa fa-facebook-f"></i></div>
-    </div>
+        <div className="google"><i class="fa-brands fa-google"></i> Google </div>
+        <div className="fb"><i class="fa-brands fa-facebook-f"></i>  Facebook</div>
+      </div>
+
+      <div className="horizontal-line"></div>
+
       <div class="container">
-        {/* <div className="con">
-          <hr/>
-        </div> */}
         <div class="login-form">
           <form onSubmit={handleLogin}>
             <div className="input-container">
@@ -56,22 +57,23 @@ function App() {
             </div>
 
             <div className='remberme'>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={rememberMe}
-                  onChange={handleCheckboxChange}
-                />Remember Me
+              <label>Remember Me
               </label>
+              <input
+                type="checkbox"
+                checked={rememberMe}
+                onChange={handleCheckboxChange}
+              />
             </div>
             <button type="submit">Login</button>
             <p>Do not have Account yet?</p>
           </form>
-
         </div>
+
         <div class="image">
           <img src="https://media.istockphoto.com/id/1281150061/vector/register-account-submit-access-login-password-username-internet-online-website-concept.jpg?s=612x612&w=0&k=20&c=9HWSuA9IaU4o-CK6fALBS5eaO1ubnsM08EOYwgbwGBo=" alt="Img" />
         </div>
+
       </div>
 
 
