@@ -107,9 +107,9 @@ grid-column: span 8;
   position: relative;
   top: 3px; 
   /* left: 20%; */
-  transform: translateX(-550%);
-  height: 60px;
-  width: 80px;
+  transform: translateX(-640%);
+  height: 50px;
+  width: 70px;
   margin-top: 60px;
 }
 .input-container {
