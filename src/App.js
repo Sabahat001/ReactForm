@@ -38,7 +38,7 @@ function App() {
       <div className="container">
     <div className="horizontal-line"></div>
     <div className="or">Or</div>
-    <div className="horizontal-line"></div>
+    <div className="horizontal-line-1"></div>
   </div>
 
       <div className="container-wrapper">
