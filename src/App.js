@@ -30,10 +30,8 @@ function App() {
         <div className="google">
           <img src="https://cdn.discordapp.com/attachments/1215365922814955520/1223324391161594020/Logo.png?ex=6619709f&is=6606fb9f&hm=4d0b1fa0ae35b78063267650dc3cb1482c2831efecfd0909ae8f25bf7e851e15&" alt="" />  Google
         </div>
-        <div className="fb"><img src="https://cdn.discordapp.com/attachments/1215365922814955520/1223324391379566756/logo_1.png?ex=6619709f&is=6606fb9f&hm=e05268c92eb4c5ecd1ce1a11d826e222d03a7d39e2c4366e49299564fd5c3123&" alt="" /> Facebook</div>
+        <div className="fb"><img src="https://cdn.discordapp.com/attachments/1215365922814955520/1223324391379566756/logo_1.png?ex=6619709f&is=6606fb9f&hm=e05268c92eb4c5ecd1ce1a11d826e222d03a7d39e2c4366e49299564fd5c3123&" alt="" />  Facebook</div>
       </div>
-
-      {/* <div className="horizontal-line"></div> */}
 
       <div className="container">
     <div className="horizontal-line"></div>

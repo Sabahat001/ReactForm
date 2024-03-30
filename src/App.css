@@ -40,18 +40,20 @@
  .heading{
   text-align: center;
   margin-top: 20px;
-  margin-right: 900px;
+  margin-right: 820px;
  }
 
 .login-form {
+  margin-top: none;
   grid-row: span 4;
   width: 300px;
   padding: 20px;
   /* border: 1px solid #dc4a4a;
   border-radius: 2px; */
   /* background-color: whitesmoke; */
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 60px;
+ 
 }
 
 .login-form input {
@@ -63,6 +65,7 @@
   /* color: white; */
   border: none;
   border-radius: 5px;
+
 }
 
 .login-form button {
@@ -92,8 +95,10 @@
 .container {
   /* flex: 1; */
   display: flex;
-  margin: 0 10px; /* Adjust margin as needed */
+  /* margin: 0 10px;  */
 margin-bottom: 70px;
+margin: 0 5px;
+margin-top: 30px;
 }
 
 .image {
@@ -122,7 +127,7 @@ background-size: 130px; */
   position: relative;
   top: 3px; 
   /* left: 20%; */
-  transform: translateX(-640%);
+  transform: translateX(-590%);
   height: 50px;
   width: 70px;
   margin-top: 60px;
@@ -141,40 +146,55 @@ background-size: 130px; */
 }
 
 .google, .fb{
-  border: 1px solid black;
-  box-sizing: border-box ;
-  border-radius: 5px;
+  /* border: 1px solid black; */
+  /* box-sizing: border-box ; */
+  border-radius: 10px;
+background-color: whitesmoke;
+  border: none;
+ margin-top: 20px;
   height: 30px;
   width: 100px;
-  padding-top: 3px;
+  padding-top: 5px;
  margin-left: 20px;
-padding-left: 5px;
+padding-left: 20px;
 padding-right: 5px;
-padding-bottom: 10px;
+padding-bottom: 5px;
 cursor: pointer;
 }
+
+.fb img{
+  padding-top: 7px;
+  width: 8px;
+}
+
+.google img{
+  padding-top: 7px;
+  width: 15px;
+}
+
 .remberme{
   margin-bottom: 10px;
 }
 
 
 .horizontal-line {
-  border-top: 1px solid #1e1a1a;
-  width: 90px;
-  margin-top: 30px;
+  border-top: 1px solid rgb(213, 206, 206);
+  width: 120px;
+  margin-top: 20px;
   margin-left: 85px;
+  
 } 
 
 .horizontal-line-1 {
-  border-top: 1px solid #1e1a1a;
-  width: 90px;
-  margin-top: 30px;
+  border-top: 1px solid rgb(213, 206, 206);
+  width: 120px;
+  margin-top: 20px;
  
 } 
 
 .or {
   padding: 0px 10px; 
-  margin-top: 14px;
+  margin-top: 8px;
 }
 
 input[type="checkbox"] {
@@ -190,10 +210,3 @@ input[type="checkbox"] {
  /* align-items: center; */
  margin-top: auto;
 }
-
-
-
-/* .or {
-  margin: 0 10px; /* Adjust margin to create space around the "or" text */
-  /* width: 20px; */
-/* } */ 
